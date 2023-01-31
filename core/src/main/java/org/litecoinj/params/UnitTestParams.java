@@ -49,7 +49,7 @@ public class UnitTestParams extends AbstractBitcoinNetParams {
         port = 18333;
         interval = 10;
         dumpedPrivateKeyHeader = 239;
-        segwitAddressHrp = "tb";
+        segwitAddressHrp = "ttlc";
         spendableCoinbaseDepth = 5;
         bip32HeaderP2PKHpub = 0x043587cf; // The 4 byte header that serializes in base58 to "tpub".
         bip32HeaderP2PKHpriv = 0x04358394; // The 4 byte header that serializes in base58 to "tprv"
