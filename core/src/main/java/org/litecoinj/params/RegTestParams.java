@@ -36,7 +36,7 @@ public class RegTestParams extends AbstractBitcoinNetParams {
         interval = Integer.MAX_VALUE;
         maxTarget = Utils.decodeCompactBits(Block.EASIEST_DIFFICULTY_TARGET);
         subsidyDecreaseBlockCount = 150;
-        port = 18444;
+        port = 19444;
         id = ID_REGTEST;
 
         majorityEnforceBlockUpgrade = MainNetParams.MAINNET_MAJORITY_ENFORCE_BLOCK_UPGRADE;
